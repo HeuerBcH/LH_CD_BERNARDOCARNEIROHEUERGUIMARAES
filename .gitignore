@@ -1,0 +1,35 @@
+
+# Ambientes Virtuais
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos de Cache e Compilados do Python
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos de Configuração de IDEs e Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.pdf
+*.html
+
+# Arquivos de Credenciais e Segredos
+*.env
+.env*
+secrets.toml
