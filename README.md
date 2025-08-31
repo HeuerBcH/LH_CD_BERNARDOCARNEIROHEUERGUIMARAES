@@ -1,9 +1,5 @@
 # Desafio de Ciência de Dados: Análise Cinematográfica para PProductions
 
-![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-green)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
-
 ---
 
 ## 📝 Visão Geral do Projeto
