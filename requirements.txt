@@ -1,0 +1,25 @@
+# Análise de Dados
+pandas
+numpy
+
+# Visualização de Dados
+matplotlib
+seaborn
+plotly
+
+# ML e Modelagem
+scikit-learn
+xgboost
+lightgbm
+
+# NLP
+nltk
+wordcloud
+
+# Requisições Web
+requests
+
+# Ambiente de Desenvolvimento
+jupyter
+ipykernel
+joblib
