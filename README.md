@@ -9,16 +9,19 @@ Este repositório contém a solução para o **Desafio de Cientista de Dados da 
 
 ---
 
-## 🎯 O Problema de Negócio
+## 🎯 Entregas
 
-O estúdio PProductions precisa de insights baseados em dados para minimizar os riscos e maximizar o retorno sobre o investimento em suas futuras produções. Algumas perguntas referentes ao desafio dever ser esclarecidas.
+✅ Análise Exploratória (EDA) completa com visualizações
 
----
+✅ Modelo Preditivo para notas IMDB (Random Forest)
 
-## 🛠️ Tecnologias e Bibliotecas Utilizadas
+✅ Respostas às perguntas de negócio
 
-Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+✅ Previsão para "The Shawshank Redemption"
 
+✅ Modelo salvo em formato .pkl
+
+✅ Relatório completo em PDF
 
 ---
 
@@ -29,16 +32,21 @@ O projeto está organizado da seguinte forma:
 ```
 /desafio-indicium-dados
 |
-|-- 📂 data/
+|-- 📂 data/raw
 |   |-- desafio_indicium_imdb.csv # Dataset original utilizado no projeto.
 |
 |-- 📂 models/
-|   |-- ainda-nao-tem-nada-aqui.txt 
+|   |-- imdb_rating_predictor.pkl
+|   |-- mlb_binarizer.pkl
+|   |-- tfidf_vectorizer.pkl
 |
 |-- 📂 notebooks/
-|   |-- data.ipynb  # Jupyter Notebook com toda a análise, desde o EDA até a modelagem.
-|   |-- relatorio_analise.pdf     # Versão em PDF do relatório final.
+|   |-- {arquivo}.ipynb  # Jupyter Notebook com toda a análise, desde o EDA até a modelagem.
 |
+|-- 📂 outputs/
+|   |-- arquivos .xlsx e .png
+|
+|-- relatorio_analise.pdf          # Versão em PDF do relatório final.
 |-- .gitignore                    # Arquivo para ignorar arquivos e pastas desnecessários.
 |-- README.md                     # Este arquivo, com a documentação do projeto.
 |-- requirements.txt              # Lista de dependências para reprodução do ambiente.
@@ -78,20 +86,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-**5. Inicie o JupyterLab:**
-```bash
-jupyter lab
-```
+**5. Execute o Jupyter Notebook**
+
 Após executar o comando, o JupyterLab abrirá em seu navegador. Navegue até a pasta `notebooks/` e abra o arquivo `relatorio_analise.ipynb` para ver e executar o código.
 
 ---
-
-## 📊 Análise Exploratória (EDA) e Insights
-
-
-* **[...Projeto em andamento...]**
-* **[...Projeto em andamento...]**
-* **[...Projeto em andamento...]**
 
 ### Respondendo às Perguntas de Negócio
 
