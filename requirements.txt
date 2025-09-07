@@ -13,3 +13,4 @@ jupyter
 ipykernel
 joblib
 openpyxl
+pingouin
