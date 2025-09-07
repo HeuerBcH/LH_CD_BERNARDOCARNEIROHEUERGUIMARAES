@@ -1,9 +1,5 @@
 # Desafio de Ciência de Dados: Análise Cinematográfica para PProductions
 
-![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-green)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
-
 ---
 
 ## 📝 Visão Geral do Projeto
@@ -90,20 +86,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-**5. Inicie o JupyterLab:**
-```bash
-jupyter lab
-```
+**5. Execute o Jupyter Notebook**
+
 Após executar o comando, o JupyterLab abrirá em seu navegador. Navegue até a pasta `notebooks/` e abra o arquivo `relatorio_analise.ipynb` para ver e executar o código.
 
 ---
-
-## 📊 Análise Exploratória (EDA) e Insights
-
-
-* **[...Projeto em andamento...]**
-* **[...Projeto em andamento...]**
-* **[...Projeto em andamento...]**
 
 ### Respondendo às Perguntas de Negócio
 
